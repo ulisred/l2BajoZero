@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Mi página web</title>
+ <style>
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+ }
+ .boton {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ .boton:hover {
+  background-color: #3e8e41;
+ }
+ </style>
+</head>
+<body>
+ <h1>Bienvenido a mi página web</h1>
+ <p>Esta es una página web básica con algunos botones</p>
+ <button class="boton" onclick="window.open('(link unavailable)', '_blank')">Donación</button>
+ <button class="boton" onclick="window.open('(link unavailable)', '_blank')">Votación</button>
+ <button class="boton" onclick="window.open('(link unavailable)', '_blank')">Descargar</button>
+ <button class="boton" onclick="window.open('(link unavailable)', '_blank')">Discord</button>
+</body>
+</html>
